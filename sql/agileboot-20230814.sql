@@ -1,7 +1,6 @@
 create table sys_config
 (
-    config_id       int auto_increment comment '参数主键'
-        primary key,
+    config_id       int auto_increment comment '参数主键'  primary key,
     config_name     varchar(128)  default '' not null comment '配置名称',
     config_key      varchar(128)  default '' not null comment '配置键名',
     config_options  varchar(1024) default '' not null comment '可选的选项',
